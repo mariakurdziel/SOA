@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: maria
+  Date: 2019-03-24
+  Time: 12:12
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h:head>
+    <title>Przelicznik walut</title>
+</h:head>
+
+<h:body>
+    <h:form>
+        <h1>Przelicznik walut </h1>
+        <h:outputText action="#{Przelicznik.initializeList}" />
+        Wartość początkowa:  <h:selectOneMenu value="#{Przelicznik.selectedCurrency1}">
+        <f:selectItems value="#{Przelicznik.currencies}" />
+    </h:selectOneMenu>
+        <h:commandButton value="Dodaj walutę" action="#{Przelicznik.redirect}"></h:commandButton>
+        Ilosc: <h:inputText value="#{Przelicznik.amount}"/><br/>
+       <br/> <br/> <br/>
+        Wartość końcowa:  <h:selectOneMenu value="#{Przelicznik.selectedCurrency2}">
+        <f:selectItems value="#{Przelicznik.currencies}" />
+    </h:selectOneMenu>
+        <h:commandButton value="Przelicz" action="#{Przelicznik.convertValue}"></h:commandButton>
+    </h:form>
+</h:body>
+
+</html>

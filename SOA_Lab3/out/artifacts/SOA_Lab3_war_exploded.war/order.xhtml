@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: maria
+  Date: 2019-03-28
+  Time: 16:49
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h:head>
+    <title>Podsumowanie zamowienia:</title>
+</h:head>
+
+<h:body>
+    <h1>Podsumowanie zamówienia:</h1>
+    <h:form>
+        <h:dataTable value = "#{FiltrKsiazek.ordered}" var = "book"
+                     styleClass = "bookTable"
+                     headerClass = "bookTableHeader"
+                     rowClasses = "bookTableOddRow,bookTableEvenRow">
+                        <h:column>
+                <f:facet name = "header">Tytul</f:facet>
+                #{book.tytul}
+            </h:column>
+
+            <h:column>
+                <f:facet name = "header">Autor</f:facet>
+                #{book.autor}
+            </h:column>
+
+            <h:column>
+                <f:facet name = "header">Typ</f:facet>
+                #{book.typ}
+            </h:column>
+
+            <h:column>
+                <f:facet name = "header">Cena</f:facet>
+                #{book.cena}
+            </h:column>
+            <h:column>
+                <f:facet name = "header">Waluta</f:facet>
+                #{book.waluta}
+            </h:column>
+            <h:column>
+                <f:facet name = "header">Ilosc stron</f:facet>
+                #{book.strony}
+            </h:column>
+        </h:dataTable>
+        <br/><br/>
+        Suma zamówienia: <h:outputText value="#{FiltrKsiazek.countOrder()} " />
+        <h:outputText value="#{FiltrKsiazek.books.get(0).waluta}" />
+    </h:form>
+</h:body>
+
+</html>

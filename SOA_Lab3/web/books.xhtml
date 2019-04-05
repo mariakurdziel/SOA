@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: maria
+  Date: 2019-03-27
+  Time: 13:14
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h:head>
+    <title>Książki</title>
+</h:head>
+
+<h:body>
+    <h:form>
+    <h1>Dostępne pozycje:</h1><br/><br/>
+
+    Typ literatury: <h:selectOneMenu value="#{FiltrKsiazek.type}">
+    <f:selectItems value="#{FiltrKsiazek.types}" />
+</h:selectOneMenu><br/><br/>
+Dolna cena: <h:inputText value="#{FiltrKsiazek.dcena}" required="true" immediate="true"/><br/><br/>
+Górna cena: <h:inputText value="#{FiltrKsiazek.gcena}" required="true" immediate="true"/><br/><br/>
+Wybrana waluta: <h:selectOneMenu value="#{FiltrKsiazek.currency}">
+    <f:selectItems value="#{FiltrKsiazek.currencies}" />
+</h:selectOneMenu><br/><br/>
+<h:commandButton value="Filtruj" action="#{FiltrKsiazek.filtruj}" ></h:commandButton>
+<h:commandButton value="Ukryj" action="#{FiltrKsiazek.ukryj}"></h:commandButton><br/><br/><br/><br/>
+<h:commandButton value="Usuń filtry" action="#{FiltrKsiazek.initialize}" ></h:commandButton>
+    </h:form>
+    <br/><br/>
+    <h:form>
+    <h:dataTable value = "#{FiltrKsiazek.books}" var = "book"
+                 styleClass = "bookTable"
+                 headerClass = "bookTableHeader"
+                 rowClasses = "bookTableOddRow,bookTableEvenRow">
+        <h:column>
+            <f:facet name = "header">Zamowienie</f:facet>
+            <h:commandLink value="Dodaj" action="#{FiltrKsiazek.addBook(book)}" />
+
+        </h:column>
+        <h:column>
+            <f:facet name = "header">Tytul</f:facet>
+            #{book.tytul}
+        </h:column>
+
+        <h:column>
+            <f:facet name = "header">Autor</f:facet>
+            #{book.autor}
+        </h:column>
+
+        <h:column>
+            <f:facet name = "header">Typ</f:facet>
+            #{book.typ}
+        </h:column>
+
+        <h:column>
+            <f:facet name = "header">Cena</f:facet>
+            #{book.cena}
+        </h:column>
+        <h:column>
+            <f:facet name = "header">Waluta</f:facet>
+            #{book.waluta}
+        </h:column>
+        <h:column>
+            <f:facet name = "header">Ilosc stron</f:facet>
+            #{book.strony}
+        </h:column>
+    </h:dataTable>
+        <br/><br/>
+        Zawartość koszyka: <h:outputText value="#{FiltrKsiazek.ordered.size()}" /><br/><br/>
+        <h:commandButton value="Złóż zamówienie" action="#{FiltrKsiazek.redirect}" ></h:commandButton>
+
+    </h:form>
+</h:body>
+
+</html>
