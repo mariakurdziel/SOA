@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: maria
+  Date: 2019-04-01
+  Time: 02:18
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h:head>
+    <title>Zakupione bilety</title>
+</h:head>
+
+<h:body>
+    <h:form>
+    <h1>Podsumowanie zakupu:</h1>
+    <h:dataTable value = "#{Form.order}" var = "ticket"
+                 styleClass = "bookTable"
+                 headerClass = "bookTableHeader"
+                 rowClasses = "bookTableOddRow,bookTableEvenRow">
+        <h:column>
+            <f:facet name = "header">Id biletu</f:facet>
+            #{ticket.id}
+        </h:column>
+
+        <h:column>
+            <f:facet name = "header">Typ miejsca</f:facet>
+            #{ticket.typ}
+        </h:column>
+
+        <h:column>
+            <f:facet name = "header">Cena</f:facet>
+            #{ticket.cena}
+        </h:column>
+    </h:dataTable>
+        <br/><br/><br/><br/>
+        Suma zamówienia:  <h:outputLabel value="#{Form.sum}"/><br/><br/>
+        Reszta:  <h:outputLabel value="#{Form.amount}"/><br/><br/>
+    </h:form>
+</h:body>
+
+</html>

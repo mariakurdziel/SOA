@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: maria
+  Date: 2019-03-30
+  Time: 17:50
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:c="http://java.sun.com/jsp/jstl/core">
+
+<h:head>
+    <title>Rezerwacja</title>
+</h:head>
+
+<h:body>
+    <h:form>
+        <h1>Rezerwacja biletów:</h1>
+        Imie: <h:inputText id="name" value="#{Form.name}" size="10" required="true" label="Name"/><br/><br/>
+        Nazwisko: <h:inputText id="surname" value="#{Form.surname}" size="10" required="true" label="Name"/><br/><br/>
+        Numer telefonu: <h:inputText id="number" value="#{Form.number}" size="10" required="true" label="Name"/><br/><br/>
+        Suma jaką dysponujesz: <h:inputText id="money" value="#{Form.amount}" size="10" required="true" label="Name"/><br/><br/>
+
+        <h:commandButton action="#{Form.make_panel}" value="OK"></h:commandButton><br/><br/>
+
+        <h:panelGroup id="output" rendered="#{Form.panel}">
+        Typ biletu:<h:selectOneMenu value="#{Form.typ}">
+        <f:selectItems value="#{Form.manager.types}" />
+        <h:outputLabel/><br/>
+    </h:selectOneMenu>
+        <h:commandButton value="Dodaj" action="#{Form.makeTransaction}"/>
+
+           <br/><br/>
+        Ilość biletów w koszyku:  <h:outputLabel value="#{Form.order.size()}"/><br/><br/>
+        Stan konta:  <h:outputLabel value="#{Form.amount}"/><br/><br/>
+        Do zapłaty:  <h:outputLabel value="#{Form.sum}"/><br/><br/>
+        <h:dataTable value = "#{Form.order}" var = "ticket"
+                     styleClass = "bookTable"
+                     headerClass = "bookTableHeader"
+                     rowClasses = "bookTableOddRow,bookTableEvenRow">
+            <h:column>
+                <f:facet name = "header">Usuń</f:facet>
+                <h:selectBooleanCheckbox id="check" value="#{ticket.removed}" />
+            </h:column>
+            <h:column>
+                <f:facet name = "header">Id biletu</f:facet>
+                #{ticket.id}
+            </h:column>
+
+            <h:column>
+                <f:facet name = "header">Typ miejsca</f:facet>
+                #{ticket.typ}
+            </h:column>
+
+            <h:column>
+                <f:facet name = "header">Cena</f:facet>
+                #{ticket.cena}
+            </h:column>
+        </h:dataTable>
+                <h:commandButton value="Usuń wybrane" action="#{Form.removeTickets}"/><br/><br/>
+                 <h:commandButton value="Usuń wszystkie" action="#{Form.removeAllTickets}"/>
+
+
+            <br />
+                <br/><br/><br/>
+        <h:panelGroup rendered="#{Form.render}">
+            <p>Nie masz wystarczającej sumy pieniędzy!</p>
+        </h:panelGroup>
+        <h:panelGroup rendered="#{Form.avilable}">
+            <p>Nie ma wystarczającej ilości miejsc tego rodzaju!</p>
+        </h:panelGroup>
+        </h:panelGroup>
+        <h:commandButton value="Kup" action="podsumowanie"/>
+    </h:form>
+</h:body>
+
+</html>
