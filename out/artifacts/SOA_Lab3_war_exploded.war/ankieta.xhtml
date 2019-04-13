@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: maria
+  Date: 2019-03-28
+  Time: 19:20
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h:head>
+    <title>Ankieta</title>
+</h:head>
+<h:body>
+<h1>Ankieta</h1>
+    <h:form>
+    Imie: <h:inputText id="name" value="#{Ankieta.name}" size="10" required="true" label="Name"/><br/><br/>
+    Adres e-mail <h:inputText id="email" value="#{Ankieta.email}" required="true" label="Email" validatorMessage=" Email is not valid">
+        <f:validateRegex pattern="[\w\.-]*[a-zA-Z0-9_]@[\w\.-]*[a-zA-Z0-9]\.[a-zA-Z][a-zA-Z\.]*[a-zA-Z]" />
+    </h:inputText>
+        <h:message for="email"  style="color:red" /><br/><br/>
+    Wiek: <h:inputText id="age" value="#{Ankieta.age}" size="10" required="true" label="Age" >
+        <f:validateLongRange maximum="100" minimum="10" /></h:inputText>
+        <h:message for="age" style="color:red" /><br/><br/>
+    Płeć: <h:selectOneRadio id = "gender" value="#{Ankieta.sex}" validatorMessage="Zaznacz plec">
+        <f:validateRequired/>
+        <f:selectItems value = "#{Ankieta.sex_type}"/>
+        <f:ajax listener="#{Ankieta.initializeSpecified}" render="genderForm" />
+    </h:selectOneRadio>
+        Wykształcenie: <h:selectOneMenu value="#{Ankieta.education}">
+        <f:selectItems value="#{Ankieta.education_levels}" />
+    </h:selectOneMenu><br/><br/>
+        <h:panelGroup id = "genderForm">
+        <h:panelGroup rendered="#{Ankieta.rendered1}">
+            Wzrost: <h:inputText id="height" value="#{Ankieta.height}" size="10" required="true" label="Height" >
+            <f:validateLongRange maximum="185" minimum="150" /></h:inputText>
+            <h:message for="height" style="color:red" /><br/><br/>
+            Obwód biustu:<h:inputText id="breast"  required="true" label="Breast" maxlength="3" value="#{Ankieta.breast}">
+            <f:validateLongRange maximum="300" minimum="0" /></h:inputText>
+            <h:message for="breast" style="color:red" /><br/><br/>
+            Miseczka:<h:inputText id="cup"  required="true" label="Cup" validatorMessage=" Input is not valid" maxlength="1"
+                                      value="#{Ankieta.cup}">
+            <f:validateRegex pattern="[A-Z]"/></h:inputText>
+            <h:message for="cup" style="color:red" /><br/><br/>
+            Obwód talii:<h:inputText id="waist"  required="true" label="Waist" maxlength="3" value="#{Ankieta.waist}">
+            <f:validateLongRange maximum="300" minimum="0" /></h:inputText>
+            <h:message for="waist" style="color:red" /><br/><br/>
+            Obwód bioder:<h:inputText id="hips"  required="true" label="Hips" maxlength="3" value="#{Ankieta.hips}">
+            <f:validateLongRange maximum="300" minimum="0" /></h:inputText>
+            <h:message for="hips" style="color:red" /><br/><br/>
+            Jakiego rodzaju ubrania najchętniej kupujesz?  <h:selectOneMenu value="#{Ankieta.clothes}">
+            <f:selectItems value="#{Ankieta.women}" />
+        </h:selectOneMenu><br/><br/>
+        </h:panelGroup>
+            <h:panelGroup rendered="#{Ankieta.rendered2}">
+                Wzrost: <h:inputText id="height2" value="#{Ankieta.height}" size="10" required="true" label="Height" >
+                <f:validateLongRange maximum="200" minimum="165" /></h:inputText>
+                <h:message for="height2" style="color:red" /><br/><br/>
+                Obwód klatki:<h:inputText id="ribcage"  required="true" label="Ribcage" maxlength="3" value="#{Ankieta.ribcage}">
+                <f:validateLongRange maximum="300" minimum="0" /></h:inputText>
+                <h:message for="ribcage" style="color:red" /><br/><br/>
+                Obwód pasa:<h:inputText id="belt"  required="true" label="Belt" maxlength="3" value="#{Ankieta.belt}">
+                <f:validateLongRange maximum="300" minimum="0" /></h:inputText>
+                <h:message for="belt" style="color:red" /><br/><br/>
+                Jakiego rodzaju ubrania najchętniej kupujesz?  <h:selectOneMenu value="#{Ankieta.clothes}">
+                <f:selectItems value="#{Ankieta.men}" />
+            </h:selectOneMenu><br/><br/>
+            </h:panelGroup>
+        </h:panelGroup>
+        Jesteś nowym klientem?: <h:selectOneRadio id = "client" value="#{Ankieta.new_client}" validatorMessage="Wybierz opcję">
+        <f:validateRequired/>
+        <f:selectItems value = "#{Ankieta.client}"/>
+        <f:ajax listener="#{Ankieta.clientInfo}" render="additionalForm" />
+    </h:selectOneRadio>
+        <h:panelGroup id = "additionalForm">
+        <h:panelGroup rendered="#{Ankieta.clientInf}">
+         Ile jesteś w stanie przeznaczyc miesięcznie na zakup ubrania?<h:selectOneMenu value="#{Ankieta.amount}">
+            <f:selectItems value="#{Ankieta.cost}" />
+        </h:selectOneMenu><br/><br/>
+            Jak często dokonujesz zakupu ubrania?<h:selectOneMenu value="#{Ankieta.freq}">
+            <f:selectItems value="#{Ankieta.frequency}" />
+        </h:selectOneMenu><br/><br/>
+            W jakich kolorach preferujesz ubrania?<h:selectOneMenu value="#{Ankieta.color}">
+            <f:selectItems value="#{Ankieta.colors}" />
+        </h:selectOneMenu><br/><br/>
+        </h:panelGroup>
+        </h:panelGroup>
+        <h:commandButton value="Wyślij" action="#{Ankieta.podsumowanie}" />
+    </h:form>
+    <h:panelGroup>
+        <h:form>
+            <h:commandLink>
+                <f:ajax listener="#{Ankieta.increment}" render="counter" />
+                <h:graphicImage library="images" name="#{Ankieta.generateAdd()}" width="200" height="200"/>
+            </h:commandLink>
+        </h:form>
+    </h:panelGroup>
+
+    <h:panelGroup id="counter">
+        Licznik kliknięć: #{Ankieta.counter} </h:panelGroup><br/>
+</h:body>
+
+</html>

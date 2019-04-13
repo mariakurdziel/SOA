@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: maria
+  Date: 2019-03-27
+  Time: 13:14
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h:head>
+    <title>Książki</title>
+</h:head>
+
+<h:body>
+    <h1>Dostępne pozycje:</h1><br/><br/>
+    <h:form>
+    <h:dataTable value = "#{Manager.books}" var = "book"
+                 styleClass = "bookTable"
+                 headerClass = "bookTableHeader"
+                 rowClasses = "bookTableOddRow,bookTableEvenRow">
+        <h:column>
+            <f:facet name = "header">Tytul</f:facet>
+            #{book.tytul}
+        </h:column>
+
+        <h:column>
+            <f:facet name = "header">Imię autora</f:facet>
+            #{book.imie_autor}
+        </h:column>
+        <h:column>
+            <f:facet name = "header">Nazwisko autora</f:facet>
+            #{book.nazwisko_autor}
+        </h:column>
+        <h:column>
+            <f:facet name = "header">Cena</f:facet>
+            #{book.cena}
+        </h:column>
+        <h:column>
+            <f:facet name = "header">Rok wydania</f:facet>
+            #{book.rok_wydania}
+        </h:column>
+        <h:column>
+            <f:facet name = "header">IBSN</f:facet>
+            #{book.ISBN}
+        </h:column>
+        <h:column>
+            <f:facet name = "header">Edycja</f:facet>
+            <h:commandButton value="Edytuj" action="#{Manager.editBook(book)}" ></h:commandButton>
+        </h:column>
+        <h:column>
+            <f:facet name = "header">Usunięcie</f:facet>
+            <h:commandButton value="Usuń" action="#{Manager.deleteBook(book)}" ></h:commandButton>
+        </h:column>
+    </h:dataTable>
+        <br/><br/>
+        <h:commandButton value="Dodaj nową pozycję" action="add" ></h:commandButton>
+
+    </h:form>
+</h:body>
+
+</html>

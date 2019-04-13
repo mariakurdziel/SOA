@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: maria
+  Date: 2019-04-13
+  Time: 23:24
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+    <title>Edytuj</title>
+</h:head>
+<h1>Edytuj pozycję</h1><br/><br/>
+<h:body>
+    <h:form>
+        Tytuł: <h:inputText value="#{Manager.editedBook.tytul}" required="true" /><br/><br/>
+        Imię autora: <h:inputText value="#{Manager.editedBook.imie_autor}" required="true" /><br/><br/>
+        Nazwisko autora: <h:inputText value="#{Manager.editedBook.nazwisko_autor}" required="true" /><br/><br/>
+        Cena: <h:inputText value="#{Manager.editedBook.cena}" required="true" /><br/><br/>
+        Rok wydania: <h:inputText value="#{Manager.editedBook.rok_wydania}" required="true" /><br/><br/>
+        ISBN: <h:inputText value="#{Manager.editedBook.ISBN}" required="true" /><br/><br/>
+        <h:commandButton value="Edytuj" action="#{Manager.updateBook}"></h:commandButton>
+    </h:form>
+</h:body>
+
+</html>

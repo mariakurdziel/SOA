@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="hibernate-entitymanager-5.4.2.Final">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-entitymanager/5.4.2.Final/hibernate-entitymanager-5.4.2.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-entitymanager/5.4.2.Final/hibernate-entitymanager-5.4.2.Final.jar!/" recursive="false" />
+  </library>
+</component>

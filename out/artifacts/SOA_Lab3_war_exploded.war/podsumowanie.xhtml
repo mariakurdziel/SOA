@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: maria
+  Date: 2019-03-24
+  Time: 15:40
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+    <title>Podsumowanie</title>
+</h:head>
+
+<h:body>
+    <p>Wybrana 1 waluta:</p>
+    <h:outputText value="#{Przelicznik.selectedCurrency1}" />
+    <p>Kurs:</p>
+    <h:outputText value="#{Przelicznik.kurs1}" />
+    <p>Ilość:</p>
+    <h:outputText value="#{Przelicznik.amount}" />
+    <p>Wybrana 2 waluta:</p>
+    <h:outputText value="#{Przelicznik.selectedCurrency2}" />
+    <p>Kurs:</p>
+    <h:outputText value="#{Przelicznik.kurs2}" />
+    <p>Wartość w przeliczeniu na 2 walutę</p>
+    <h:outputText value="#{Przelicznik.value}" />
+
+</h:body>
+
+</html>

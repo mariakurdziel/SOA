@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SOA_Lab3:war" />
+      <artifact name="SOA_Lab3:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="51f4d5d5-ae44-417e-9fd5-e6d0164f6def" name="Default" comment="JSF">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SOA_Lab3_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SOA_Lab3_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_clojure_clojure_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_clojure_java_jdbc_0_7_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_4_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Mojarra_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/hibernate_entitymanager_5_4_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOA_Lab3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.faces-2.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war/SOA_Lab3_war.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/SamochodForm.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/WEB-INF/classes/Ankieta.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/WEB-INF/classes/Ksiazka.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/WEB-INF/classes/Losowanie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/WEB-INF/classes/META-INF/SOA_Lab3.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/WEB-INF/classes/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/WEB-INF/classes/Manager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/WEB-INF/classes/Przelicznik.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/WEB-INF/classes/Samochod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/WEB-INF/classes/SamochodyForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/WEB-INF/classes/Zad1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/WEB-INF/classes/example/Main2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/WEB-INF/classes/example/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/WEB-INF/faces-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/Zad1.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/add.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/addCurrency.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/ankieta.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/books.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/edit.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/final.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/index.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/main.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/page1.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/page2.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/page3.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/page4.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/page5.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/podsumowanie.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/przegrana.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/przelicznik.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/resources/images/biedronka.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/resources/images/ccc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/resources/images/coca.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/resources/images/reklama.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/trafiony.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SOA_Lab3_war_exploded.war/wygrana.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOA_Lab3/Ankieta.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOA_Lab3/FiltrKsiazek.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOA_Lab3/Ksiazka.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOA_Lab3/Losowanie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOA_Lab3/META-INF/SOA_Lab3.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOA_Lab3/NBPConnector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOA_Lab3/Przelicznik.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOA_Lab3/Samochod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOA_Lab3/SamochodyForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SOA_Lab3/Zad1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ksiazka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Ksiazka.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/SOA_Lab3.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Manager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/example/Main2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/example/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/add.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/books.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/edit.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/main.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/biedronka.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/ccc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/coca.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/reklama.jpg" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Ksiazka.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#866#867#0" expanded="true" />
+                <element signature="e#891#892#0" expanded="true" />
+                <element signature="e#925#926#0" expanded="true" />
+                <element signature="e#953#954#0" expanded="true" />
+                <element signature="e#989#990#0" expanded="true" />
+                <element signature="e#1016#1017#0" expanded="true" />
+                <element signature="e#1056#1057#0" expanded="true" />
+                <element signature="e#1088#1089#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
+                <element signature="e#752#753#0" expanded="true" />
+                <element signature="e#783#784#0" expanded="true" />
+                <element signature="e#810#811#0" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
+                <element signature="e#882#883#0" expanded="true" />
+                <element signature="e#920#921#0" expanded="true" />
+                <element signature="e#954#955#0" expanded="true" />
+                <element signature="e#1008#1009#0" expanded="true" />
+                <element signature="e#1054#1055#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/main.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/example/Main2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#12#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Manager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#599#608#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#677#678#0" expanded="true" />
+                <element signature="e#541#542#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
+                <element signature="e#671#672#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#653#654#0" expanded="true" />
+                <element signature="e#0#12#1" expanded="true" />
+                <element signature="e#0#12#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/books.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/add.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/edit.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="XHTML File" />
+        <option value="jsf" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="facelets" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>body</find>
+      <find>ordere</find>
+      <find>filtered</find>
+      <find>ordered</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="Lab2" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/wygrana.html" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" />
+        <option value="$PROJECT_DIR$/web/wygrana.xhtml" />
+        <option value="$PROJECT_DIR$/web/przegrana.xhtml" />
+        <option value="$PROJECT_DIR$/src/Zad1.java" />
+        <option value="$PROJECT_DIR$/web/trafiony.xhtml" />
+        <option value="$PROJECT_DIR$/web/page3.xhtml" />
+        <option value="$PROJECT_DIR$/web/page4.xhtml" />
+        <option value="$PROJECT_DIR$/web/page1.xhtml" />
+        <option value="$PROJECT_DIR$/web/page2.xhtml" />
+        <option value="$PROJECT_DIR$/web/page5.xhtml" />
+        <option value="$PROJECT_DIR$/web/Zad1.xhtml" />
+        <option value="$PROJECT_DIR$/src/Currency.java" />
+        <option value="$PROJECT_DIR$/web/xxx.xhtml" />
+        <option value="$PROJECT_DIR$/src/Losowanie.java" />
+        <option value="$PROJECT_DIR$/src/Samochod.java" />
+        <option value="$PROJECT_DIR$/src/SamochodyForm.java" />
+        <option value="$PROJECT_DIR$/web/SamochodForm.xhtml" />
+        <option value="$PROJECT_DIR$/web/addCurrency.xhtml" />
+        <option value="$PROJECT_DIR$/web/przelicznik.xhtml" />
+        <option value="$PROJECT_DIR$/src/Przelicznik.java" />
+        <option value="$PROJECT_DIR$/src/NBPConnector.java" />
+        <option value="$PROJECT_DIR$/web/order.xhtml" />
+        <option value="$PROJECT_DIR$/src/Ksiazka.java" />
+        <option value="$PROJECT_DIR$/web/final.xhtml" />
+        <option value="$PROJECT_DIR$/src/Advert.java" />
+        <option value="$PROJECT_DIR$/src/Ankieta.java" />
+        <option value="$PROJECT_DIR$/web/ankieta.xhtml" />
+        <option value="$PROJECT_DIR$/src/FiltrKsiazek.java" />
+        <option value="$PROJECT_DIR$/web/index.xhtml" />
+        <option value="$PROJECT_DIR$/web/podsumowanie.xhtml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/example/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/example/Main2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CreateCatalog.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/edit.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/example/Main.java" />
+        <option value="$PROJECT_DIR$/web/main.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Ksiazka.java" />
+        <option value="$PROJECT_DIR$/web/books.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/Manager.java" />
+        <option value="$PROJECT_DIR$/web/add.xhtml" />
+        <option value="$PROJECT_DIR$/web/edit.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="53" />
+    <option name="width" value="1356" />
+    <option name="height" value="727" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SOA_Lab3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOA_Lab3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOA_Lab3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOA_Lab3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOA_Lab3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOA_Lab3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOA_Lab3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOA_Lab3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOA_Lab3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOA_Lab3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOA_Lab3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOA_Lab3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOA_Lab3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOA_Lab3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOA_Lab3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOA_Lab3" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="XHTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/hibernate/hibernate-entitymanager/5.4.2.Final/hibernate-entitymanager-5.4.2.Final.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.5475444" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\maria\Desktop\SOA\SOA_Lab3\lib" />
+      <recent name="C:\Users\maria\Desktop\SOA\SOA_Lab3\web" />
+      <recent name="C:\Users\maria\Desktop\SOA\SOA_Lab3\src\main\java\example" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\maria\Desktop\SOA\SOA_Lab3\web" />
+      <recent name="C:\Users\maria\Desktop\SOA\SOA_Lab3\src\main\resources" />
+      <recent name="C:\Users\maria\Desktop\SOA\SOA_Lab3\src\main\java" />
+      <recent name="C:\Users\maria\IdeaProjects\SOA_Lab3\web\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JBoss 8.0.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 8.0.0.Final" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/SOA_Lab3_war_exploded/index.html" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="SOA_Lab3:war exploded">
+          <settings />
+        </artifact>
+        <artifact name="SOA_Lab3:war">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="SERVER" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" value="main-server-group" />
+        <option name="USERNAME" value="" />
+        <option name="CREDENTIAL_ALIAS" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="JBoss" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49449" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SOA_Lab3:war" />
+          <artifact name="SOA_Lab3:war exploded" />
+        </option>
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JBossConfiguration" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="serverGroup" value="" />
+          <option name="transportHostId" value="" />
+          <server-group />
+          <host-id />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="JBoss" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62044" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51f4d5d5-ae44-417e-9fd5-e6d0164f6def" name="Default" comment="" />
+      <created>1552896300956</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552896300956</updated>
+      <workItem from="1552896307551" duration="1656000" />
+      <workItem from="1552898041624" duration="6000" />
+      <workItem from="1553356500126" duration="43000" />
+      <workItem from="1553356820724" duration="607000" />
+      <workItem from="1553358354403" duration="600000" />
+      <workItem from="1553369392681" duration="1776000" />
+      <workItem from="1553371283345" duration="1398000" />
+      <workItem from="1553372824971" duration="1775000" />
+      <workItem from="1553374814285" duration="480000" />
+      <workItem from="1553375813494" duration="1774000" />
+      <workItem from="1553377691347" duration="839000" />
+      <workItem from="1553378984512" duration="977000" />
+      <workItem from="1553380131910" duration="1036000" />
+      <workItem from="1553381588626" duration="8505000" />
+      <workItem from="1553417376986" duration="47566000" />
+      <workItem from="1553498499367" duration="656000" />
+      <workItem from="1553625929411" duration="9220000" />
+      <workItem from="1553687946458" duration="4225000" />
+      <workItem from="1553781533529" duration="32645000" />
+      <workItem from="1553870638742" duration="10636000" />
+      <workItem from="1554505906081" duration="513000" />
+      <workItem from="1555076140923" duration="2019000" />
+      <workItem from="1555078244259" duration="15354000" />
+      <workItem from="1555160993456" duration="19637000" />
+    </task>
+    <task id="LOCAL-00001" summary="JSF">
+      <created>1554506015706</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554506015706</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="163943000" />
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="53" y="0" width="1356" height="727" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.622807" visible="true" weight="0.2638889" />
+      <window_info id="Structure" order="1" sideWeight="0.16228071" side_tool="true" weight="0.2881997" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Persistence" order="8" sideWeight="0.37719297" side_tool="true" weight="0.30635402" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8903177" weight="0.28267974" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.9054463" weight="0.04901961" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49848714" weight="0.3294893" />
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.49924356" weight="0.32843137" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.10725309" side_tool="true" visible="true" weight="0.19159664" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.8927469" visible="true" weight="0.19159664" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="right" id="CDI" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="JSF" order="10" visible="true" weight="0.023148147" />
+      <window_info anchor="right" id="Database" order="11" weight="0.022692889" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.622807" visible="true" weight="0.30635402" />
+      <window_info id="Structure" order="1" sideWeight="0.16228071" side_tool="true" weight="0.2881997" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Persistence" order="8" sideWeight="0.37719297" side_tool="true" visible="true" weight="0.30635402" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.9009077" visible="true" weight="0.25490198" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.39869282" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49848714" weight="0.3294893" />
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.49924356" weight="0.3294893" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.09909228" side_tool="true" visible="true" weight="0.25490198" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49621785" weight="0.32843137" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="right" id="CDI" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="JSF" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Database" order="11" weight="0.022692889" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="JSF" />
+    <option name="LAST_COMMIT_MESSAGE" value="JSF" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Manager.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/wygrana.html" />
+    <entry file="file://$PROJECT_DIR$/web/przegrana.xhtml" />
+    <entry file="file://$PROJECT_DIR$/web/page2.xhtml" />
+    <entry file="file://$PROJECT_DIR$/web/page4.xhtml" />
+    <entry file="file://$PROJECT_DIR$/web/page5.xhtml" />
+    <entry file="file://$PROJECT_DIR$/web/trafiony.xhtml" />
+    <entry file="file://$PROJECT_DIR$/src/Currency.java" />
+    <entry file="file://$PROJECT_DIR$/web/wygrana.xhtml" />
+    <entry file="file://$PROJECT_DIR$/web/page3.xhtml" />
+    <entry file="file://$PROJECT_DIR$/web/xxx.xhtml" />
+    <entry file="file://$PROJECT_DIR$/web/addCurrency.xhtml" />
+    <entry file="file://$PROJECT_DIR$/web/przelicznik.xhtml" />
+    <entry file="file://$PROJECT_DIR$/web/page1.xhtml" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/faces-config.xml">
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NBPConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Przelicznik.java" />
+    <entry file="file://$PROJECT_DIR$/src/Samochod.java" />
+    <entry file="file://$PROJECT_DIR$/web/SamochodForm.xhtml" />
+    <entry file="file://$PROJECT_DIR$/src/Losowanie.java" />
+    <entry file="file://$PROJECT_DIR$/src/Advert.java" />
+    <entry file="file://$PROJECT_DIR$/src/Ankieta.java" />
+    <entry file="file://$PROJECT_DIR$/src/SamochodyForm.java" />
+    <entry file="file://$PROJECT_DIR$/web/ankieta.xhtml" />
+    <entry file="file://$PROJECT_DIR$/src/Zad1.java" />
+    <entry file="file://$PROJECT_DIR$/web/final.xhtml" />
+    <entry file="file://$PROJECT_DIR$/web/Zad1.xhtml" />
+    <entry file="file://$PROJECT_DIR$/web/index.xhtml" />
+    <entry file="file://$PROJECT_DIR$/web/podsumowanie.xhtml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/example.java" />
+    <entry file="file://$PROJECT_DIR$/web/main.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/order.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="36" column="21" selection-start-line="21" selection-start-column="8" selection-end-line="55" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FiltrKsiazek.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CreateCatalog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/Main2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#12#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ksiazka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1016#1017#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#599#608#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#0#12#1" expanded="true" />
+            <element signature="e#0#12#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/books.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/add.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/edit.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/main.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>SOA_Lab3:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5475444" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5475444" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5475444" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SOA_Lab3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5475444" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>hibernate-entitymanager-5.4.2.Final</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5475444" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

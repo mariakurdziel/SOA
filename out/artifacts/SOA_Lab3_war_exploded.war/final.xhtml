@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: maria
+  Date: 2019-03-28
+  Time: 23:24
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+    <title>Wynik</title>
+</h:head>
+
+<h:body>
+    <h1>Podsumowanie</h1>
+
+    Imię: <h:outputText value="#{Ankieta.name}" /><br/><br/>
+    Email: <h:outputText value="#{Ankieta.email}" /><br/><br/>
+    Wiek: <h:outputText value="#{Ankieta.height}" /><br/><br/>
+    Płeć: <h:outputText value="#{Ankieta.sex}" /><br/><br/>
+
+    <h:panelGroup rendered="#{Ankieta.rendered1}">
+    Obwód biustu: <h:outputText value="#{Ankieta.breast}" /><br/><br/>
+     Miseczka: <h:outputText value="#{Ankieta.cup}" /><br/><br/>
+     Obwód talii: <h:outputText value="#{Ankieta.waist}" /><br/><br/>
+      Obwód bioder: <h:outputText value="#{Ankieta.hips}" /><br/><br/>
+      Najchętniej kupowany typ ubioru: <h:outputText value="#{Ankieta.clothes}" /><br/><br/>
+    </h:panelGroup>
+
+    <h:panelGroup rendered="#{Ankieta.rendered2}">
+        Obwód klatki piersiowej: <h:outputText value="#{Ankieta.ribcage}" /><br/><br/>
+        Pas: <h:outputText value="#{Ankieta.belt}" /><br/><br/>
+        Najchętniej kupowany typ ubioru: <h:outputText value="#{Ankieta.clothes}" /><br/><br/>
+    </h:panelGroup>
+
+    Wykształcenie:<h:outputText value="#{Ankieta.education}" /><br/><br/>
+
+    <h:panelGroup rendered="#{Ankieta.clientInf}">
+        Ile jesteś w stanie przeznaczyć na zakupy: <h:outputText value="#{Ankieta.amount}" /><br/><br/>
+        Jak często dokonujesz zakupów: <h:outputText value="#{Ankieta.freq}" /><br/><br/>
+        W jakich kolorach najchętniej kupujesz?: <h:outputText value="#{Ankieta.color}" /><br/><br/>
+    </h:panelGroup>
+
+</h:body>
+
+</html>
