@@ -18,13 +18,15 @@
 <h1>Dodaj pozycję</h1><br/><br/>
 <h:body>
 <h:form>
-    Tytuł: <h:inputText value="#{Manager.newBook.tytul}" required="true" /><br/><br/>
-    Imię autora: <h:inputText value="#{Manager.newBook.imie_autor}" required="true" /><br/><br/>
-    Nazwisko autora: <h:inputText value="#{Manager.newBook.nazwisko_autor}" required="true" /><br/><br/>
-    Cena: <h:inputText value="#{Manager.newBook.cena}" required="true" /><br/><br/>
-    Rok wydania: <h:inputText value="#{Manager.newBook.rok_wydania}" required="true" /><br/><br/>
-    ISBN: <h:inputText value="#{Manager.newBook.ISBN}" required="true" /><br/><br/>
-    <h:commandButton value="Dodaj" action="#{Manager.addBook}"></h:commandButton>
+<h:panelGroup>
+    <h:panelGroup rendered="#{Controller.render1}">
+    Id czytelnika: <h:inputText value="#{WypozyczenieDB.newRental.czytelnik.id_czytelnika}" required="true" /><br/><br/>
+    Id ksiazki: <h:inputText value="#{WypozyczenieDB.newRental.ksiazka.id}" required="true" /><br/><br/>
+    Data wypozyczenia: <h:inputText value="#{WypozyczenieDB.newRental.wypozyczenie}" required="true" /><br/><br/>
+    Data oddania: <h:inputText value="#{WypozyczenieDB.newRental.oddania}" required="true" /><br/><br/>
+    <h:commandButton value="Dodaj" action="#{WypozyczenieDB.addRental}"></h:commandButton>
+    </h:panelGroup>
+</h:panelGroup>
 </h:form>
 </h:body>
 </html>
