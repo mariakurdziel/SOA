@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="JPA-Zajecia/Hibernate" uuid="9a5e0e99-ba22-4e8c-94ab-2331766fb8dd">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <user-name>mkurdzie</user-name>
+    </data-source>
+  </component>
+</project>

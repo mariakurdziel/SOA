@@ -33,7 +33,7 @@
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
           <factory-entry name="Entities" />
-          <factory-entry name="JPA-Zajecia" />
+          <factory-entry name="JPA-Zajecia" value="9a5e0e99-ba22-4e8c-94ab-2331766fb8dd" />
           <factory-entry name="MySqlDS" />
         </datasource-mapping>
         <naming-strategy-map />

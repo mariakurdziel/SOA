@@ -18,7 +18,12 @@
 
 <h:body>
     <h:form>
-    <h:commandButton value="Utwórz tabelę" action="#{Main.createTabele}" ></h:commandButton>
+        Wybierz kategorię: <h:selectOneRadio id = "category" value="#{Ankieta.sex}" validatorMessage="Zaznacz plec">
+        <f:validateRequired/>
+        <f:selectItems value = "#{Ankieta.sex_type}"/>
+        <f:ajax listener="#{Ankieta.initializeSpecified}" render="genderForm" />
+    </h:selectOneRadio>
+    <h:commandButton value="Utwórz tabelę" action="#{Manager.createTable}" ></h:commandButton>
         <h:commandButton value="Dodaj do Bazy" action="#{Main.write}" ></h:commandButton>
 
 </h:form>

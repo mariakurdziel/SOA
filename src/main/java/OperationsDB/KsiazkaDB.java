@@ -1,5 +1,6 @@
-import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader;
-import example.Student;
+package OperationsDB;
+
+import Model.Ksiazka;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
@@ -7,18 +8,18 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import javax.persistence.Query;
-import javax.xml.bind.SchemaOutputResolver;
 import java.util.LinkedList;
 import java.util.List;
 
-@ManagedBean(name="Manager")
+@ManagedBean(name="KsiazkaDB")
 @RequestScoped
-public class Manager {
+public class KsiazkaDB {
+
     EntityManagerFactory factory;
     EntityManager em;
     static Ksiazka editedBook;
-    static Ksiazka newBook=new Ksiazka("","","","","","");
-    List <Ksiazka> books=new LinkedList<Ksiazka>();
+    static Ksiazka newBook=new Ksiazka("",null);
+    List<Ksiazka> books=new LinkedList<Ksiazka>();
 
     public Ksiazka getNewBook() {
         return newBook;
@@ -43,7 +44,7 @@ public class Manager {
         this.books = books;
     }
 
-    public Manager() {
+    public KsiazkaDB() {
         factory = Persistence.createEntityManagerFactory("JPA-Zajecia");
         em = factory.createEntityManager();
         getAllBooks();
@@ -51,7 +52,7 @@ public class Manager {
 
     public void getAllBooks() {
 
-        newBook=new Ksiazka("","","","","","");
+        newBook=new Ksiazka("",null);
 
         EntityManagerFactory factory = Persistence.createEntityManagerFactory("JPA-Zajecia");
         EntityManager em = factory.createEntityManager();
@@ -70,7 +71,7 @@ public class Manager {
     public void deleteBook(Ksiazka k){
 
         try {
-            Ksiazka foundBook = em.find(Ksiazka.class, k.id);
+            Ksiazka foundBook = em.find(Ksiazka.class, k.getId());
 
             em.getTransaction().begin();
             em.remove(foundBook);
@@ -100,17 +101,14 @@ public class Manager {
     }
     public String updateBook() {
         try {
-            Ksiazka foundBook = em.find(Ksiazka.class, editedBook.id);
+            Ksiazka foundBook = em.find(Ksiazka.class, editedBook.getId());
 
             em.getTransaction().begin();
-            foundBook.setTytul( editedBook.tytul);
-            foundBook.setImie_autor( editedBook.imie_autor);
-            foundBook.setNazwisko_autor( editedBook.nazwisko_autor);
-            foundBook.setCena( editedBook.cena);
-            foundBook.setRok_wydania( editedBook.rok_wydania);
+            foundBook.setTytul( editedBook.getTytul());
+            foundBook.setAutor( editedBook.getAutor());
             em.getTransaction().commit();
             getAllBooks();
-            return "books";
+            return "index";
         }  catch(Exception e) {
             em.getTransaction().rollback();
             System.err.println("Error when trying to update data in database: " + e);
@@ -122,6 +120,5 @@ public class Manager {
         editedBook=k;
         return "edit";
     }
-
 }
 
