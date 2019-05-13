@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="JAX-RS" type="JAX-RS">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../resteasy-jaxrs-3.6.3.Final-all.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../jar_files.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../jersey-servlet-1.12.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../resteasy-jaxrs-3.6.3.Final-all.zip!/resteasy-jaxrs-3.6.3.Final/docs/javadocs" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
